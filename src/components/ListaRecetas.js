@@ -8,7 +8,7 @@ const ListaRecetas = () => {
 
   return (
     <div className="row mt-5">
-      {recestas?recetas.map(receta => (
+      {recetas?recetas.map(receta => (
         <Receta key={receta.idDrink} receta={receta} />
       )):null}
     </div>
